@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Solution Items", ".Solution Items", "{B4D33DF8-FC64-46FF-907B-00458C9DBBD1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+		LICENSE = LICENSE
+		NuGet.Config = NuGet.Config
+		packing.props = packing.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syrna.Alpha.Icons.Generating.TelerikUI", "src\Syrna.Alpha.Icons.Generating.TelerikUI\Syrna.Alpha.Icons.Generating.TelerikUI.csproj", "{E90C3676-C3B2-4674-9A6E-67D18D905039}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syrna.Alpha.Icons.FontAwesomeFree.TelerikUI", "src\Syrna.Alpha.Icons.FontAwesomeFree.TelerikUI\Syrna.Alpha.Icons.FontAwesomeFree.TelerikUI.csproj", "{B809ECF8-7765-414B-AB23-8CCA95C15759}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syrna.Alpha.Icons.FontAwesomeFree.Generating.TelerikUI", "src\Syrna.Alpha.Icons.FontAwesomeFree.Generating.TelerikUI\Syrna.Alpha.Icons.FontAwesomeFree.Generating.TelerikUI.csproj", "{A9E557D3-5423-4067-AF0D-56220FB3C34C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{2869973C-8B06-4667-9A7B-8500DDDB958D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{B29E4DEF-D6B6-4484-9674-9257AB3CC3AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syrna.Alpha.Icons.Blazor.Client", "src\Syrna.Alpha.Icons.Blazor.Client\Syrna.Alpha.Icons.Blazor.Client.csproj", "{D085F0AE-04A2-4AF8-83B4-9329CC17E8A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syrna.Alpha.Icons.Blazor", "src\Syrna.Alpha.Icons.Blazor\Syrna.Alpha.Icons.Blazor.csproj", "{D2C4F581-54FB-4162-A368-0FAA4BE221AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E90C3676-C3B2-4674-9A6E-67D18D905039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90C3676-C3B2-4674-9A6E-67D18D905039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90C3676-C3B2-4674-9A6E-67D18D905039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90C3676-C3B2-4674-9A6E-67D18D905039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B809ECF8-7765-414B-AB23-8CCA95C15759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B809ECF8-7765-414B-AB23-8CCA95C15759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B809ECF8-7765-414B-AB23-8CCA95C15759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B809ECF8-7765-414B-AB23-8CCA95C15759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E557D3-5423-4067-AF0D-56220FB3C34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E557D3-5423-4067-AF0D-56220FB3C34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E557D3-5423-4067-AF0D-56220FB3C34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E557D3-5423-4067-AF0D-56220FB3C34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D085F0AE-04A2-4AF8-83B4-9329CC17E8A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D085F0AE-04A2-4AF8-83B4-9329CC17E8A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D085F0AE-04A2-4AF8-83B4-9329CC17E8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D085F0AE-04A2-4AF8-83B4-9329CC17E8A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C4F581-54FB-4162-A368-0FAA4BE221AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C4F581-54FB-4162-A368-0FAA4BE221AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C4F581-54FB-4162-A368-0FAA4BE221AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C4F581-54FB-4162-A368-0FAA4BE221AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E90C3676-C3B2-4674-9A6E-67D18D905039} = {2869973C-8B06-4667-9A7B-8500DDDB958D}
+		{B809ECF8-7765-414B-AB23-8CCA95C15759} = {2869973C-8B06-4667-9A7B-8500DDDB958D}
+		{A9E557D3-5423-4067-AF0D-56220FB3C34C} = {2869973C-8B06-4667-9A7B-8500DDDB958D}
+		{D085F0AE-04A2-4AF8-83B4-9329CC17E8A3} = {B29E4DEF-D6B6-4484-9674-9257AB3CC3AF}
+		{D2C4F581-54FB-4162-A368-0FAA4BE221AB} = {B29E4DEF-D6B6-4484-9674-9257AB3CC3AF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E25C9B4-3E2C-4662-B9BE-2063CC57033F}
+	EndGlobalSection
+EndGlobal

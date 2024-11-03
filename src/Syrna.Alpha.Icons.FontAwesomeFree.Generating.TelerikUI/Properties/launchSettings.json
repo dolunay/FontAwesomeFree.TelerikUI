@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Profile 1": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "..\\Syrna.Alpha.Icons.FontAwesomeFree.TelerikUI\\Syrna.Alpha.Icons.FontAwesomeFree.TelerikUI.csproj"
+    }
+  }
+}

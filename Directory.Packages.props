@@ -1,0 +1,37 @@
+<Project>
+	<PropertyGroup>
+		<SyrnaAlphaPackageVersion>8.3.0</SyrnaAlphaPackageVersion>
+		<MicrosoftExtensionsPackageVersion>8.0.0</MicrosoftExtensionsPackageVersion>
+		<MicrosoftAspNetCorePackageVersion>8.0.4</MicrosoftAspNetCorePackageVersion>
+		<MicrosoftEntityFrameworkCorePackageVersion>8.0.4</MicrosoftEntityFrameworkCorePackageVersion>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageVersion Include="CodeCasing" Version="3.0.3" />
+		<PackageVersion Include="HtmlAgilityPack" Version="1.11.62" />
+		<PackageVersion Include="Microsoft.SourceLink.GitHub" Version="8.0.0"/>
+		<PackageVersion Include="SecurityCodeScan.VS2019" Version="5.6.7"/>
+		<PackageVersion Include="SonarAnalyzer.CSharp" Version="9.30.0.95878"/>
+		<PackageVersion Include="Text.Analyzers" Version="3.3.4"/>
+		<PackageVersion Include="System.Threading.Tasks.Dataflow" Version="8.0.1"/>
+		<PackageVersion Include="Microsoft.VisualStudio.Threading" Version="17.11.20"/>
+		<PackageVersion Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.11.20"/>
+		<PackageVersion Include="Microsoft.VisualStudio.Validation" Version="17.8.8"/>
+		<PackageVersion Include="Microsoft.CodeAnalysis.Common" Version="4.11.0" />
+		<PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="3.11.0"/>
+		<PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.11.0"/>
+		<PackageVersion Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.0"/>
+		<PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.435"/>
+		<PackageVersion Include="BlazorComponentUtilities" Version="1.8.0" />
+
+		<PackageVersion Include="Telerik.UI.for.Blazor" Version="6.2.0" />
+
+        <PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
+        <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.0" />
+
+        <PackageVersion Include="Syrna.Alpha.Icons.FontAwesomeFree.TelerikUI" Version="$(SyrnaAlphaPackageVersion)" />
+
+	</ItemGroup>
+</Project>
