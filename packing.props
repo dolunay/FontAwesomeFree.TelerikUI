@@ -1,23 +1,21 @@
 <Project>
 	<PropertyGroup>
 		<LangVersion>latest</LangVersion>
-		<Version>8.3.0</Version>
+		<ApplicationVersion>$(SyrnaAlphaPackageVersion)</ApplicationVersion>
+		<ApplicationRevision>0</ApplicationRevision>
+		<Version>$(SyrnaAlphaPackageVersion)</Version>
 		<Authors>Syrna</Authors>
 		<NoWarn>$(NoWarn);CS1591;CS0436;CS8618;NU1803</NoWarn>
 		<PackageOutputPath>$(SolutionDir)Packages\Lib</PackageOutputPath>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RepositoryType>git</RepositoryType>
 		<GeneratePackageOnBuild Condition="$(AssemblyName.StartsWith('Syrna'))">true</GeneratePackageOnBuild>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
 		<PackageReadmeFile>.\README.md</PackageReadmeFile>
 		<PackageIcon>.\logo.png</PackageIcon>
-
-		<ApplicationVersion>$(SyrnaAlphaPackageVersion)</ApplicationVersion>
-		<ApplicationRevision>0</ApplicationRevision>
-		<Version>$(SyrnaAlphaPackageVersion)</Version>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<IsTrimmable>true</IsTrimmable>
-		<Authors>Celal Ak</Authors>
 		<PackageTags>Telerik Blazor Font Awesome Icons SVG</PackageTags>
 		<Description>Provides the Font Awesome icon library packaged as Telerik Blazor Custom SvgIcon Library, SVG icon components for Blazor.</Description>
 		<PackageProjectUrl>https://github.com/dolunay/FontAwesomeFree.TelerikUI</PackageProjectUrl>
